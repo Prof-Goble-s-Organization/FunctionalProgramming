@@ -20,8 +20,8 @@ public class Lambdas {
      */
     public static void printSquares(int start, int end) {
         IntStream.range(start, end)
-                .map( /* fill this in */ )
-                .forEach(/* fill this in */);
+                .map( /* Fill this in */ )
+                .forEach( /* Fill this in */ );
     }
 
     /**
@@ -66,16 +66,14 @@ public class Lambdas {
      * @return
      */
 	public static ArrayList<Integer> factors(int i){
-		
 		return null;
-
 	}
 	
     /**
      * This should be a copy of factors but uses ParallelStream instead of Stream
      * @param i
      */
-	public static void factorsParallelStream(int i){
-		
+	public static ArrayList<Integer> factorsParallelStream(int i){
+		return null;
 	}
 }
